@@ -1,0 +1,49 @@
+body {
+    background: skyblue;
+    letter-spacing: 0.2em;
+    font-size: .8em;
+  
+}
+
+.container{
+    max-width: 400px;
+    /* background: orangered; */
+    margin: 0 auto;
+    border-radius: 8px;
+
+}
+
+.icon {
+    background: blue;
+    position: relative;
+    top: -50px;
+    border-radius: 50%;
+    width: 100px;
+    margin-bottom: -50px;
+   
+  
+}
+
+h1 {
+   color: orangered;
+         
+}
+.my-3 {
+    color: orangered;
+   
+}
+
+label {
+    color: orangered;
+}
+
+span {
+    
+    color: orangered;
+}
+
+@media screen and (max-width: 600px) {
+    body {
+      background-color: pink;
+    }
+  }
